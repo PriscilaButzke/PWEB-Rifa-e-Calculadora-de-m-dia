@@ -23,12 +23,16 @@
             <h1>Escola XYZ</h1>
             <div class="input-group-sm mb-3">
                 <div class="input-group-prepend">
-                    <p class="input-group-text" id="inputGroup-sizing-lg"><?php echo $_GET['nome']; ?></p>
+                    <p class="input-group-text" id="inputGroup-sizing-lg">
+                    <?php echo $_GET['nome']; ?>
+                </p> 
             </div>
 
             <div class="input-group input-group-sm mb-3">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-lg">Nota 1:</span>
+                    <p class="input-group-text" id="inputGroup-sizing-lg"> 
+                        <?php echo $_GET['nota1']; ?>
+                    </p>
             </div>
 
             <div class="input-group input-group-sm mb-3">
